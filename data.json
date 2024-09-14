@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "name": "Garlic Butter Steak with Asparagus",
+            "price": "18",
+            "urlImage": "https://odinkeane.github.io/web-developer/practical6/garlic-butter.png",
+            "hot": true
+        },
+        {
+            "name": "Mediterranean Chicken Quinoa",
+            "price": "11",
+            "urlImage": "https://odinkeane.github.io/web-developer/practical6/medditarian-chicken.png",
+            "hot": true
+        },
+        {
+            "name": "Veggie tomato mix",
+            "price": "13",
+            "urlImage": "https://odinkeane.github.io/web-developer/practical6/veggie-mix.png",
+            "hot": false
+        },
+        {
+            "name": "Egg and cucmber",
+            "price": "5",
+            "urlImage": "https://odinkeane.github.io/web-developer/practical6/egg-cucumber.png",
+            "hot": false
+        },
+        {
+            "name": "Fried Chicken",
+            "price": "12",
+            "urlImage": "https://odinkeane.github.io/web-developer/practical6/fried-chicken.png",
+            "hot": false
+        },
+        {
+            "name": "Moi Moi and ekpa",
+            "price": "12",
+            "urlImage": "https://odinkeane.github.io/web-developer/practical6/moi-moi.png",
+            "hot": false
+        }
+    ]
+}

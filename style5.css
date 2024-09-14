@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Urbanist";
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292929;
+}
+
+
+.mobile{
+    max-width: 450px;
+    max-height: 900px;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px 20px 32px;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 4px 31px 29px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    padding: 0px 31px;
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+}
+
+.search_input{
+    all: unset;
+    flex: auto;
+    box-sizing: border-box;
+    height: 54px;
+    background-color: white;
+    padding: 0px 19px;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 100px;
+}
+
+.search_input::placeholder{
+    color: #bdbdbd;
+}
+
+.search_btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #ff6b00;
+    text-align: center;
+    position: absolute;
+    right: 40px;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 16px;
+}
+
+.category_img{
+    background-color: white;
+    width: 77px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.category figcaption{
+    padding: 11px 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600
+}
+
+.active{
+    font-weight: bold;
+    color: black !important;
+}
+
+main{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 24px;
+    background-color: white;
+}
+
+footer button{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active_btn{
+    background-color: #ff6b00;
+}
+
+.active_btn img{
+    filter: invert();
+}
+
+.burger_menu{
+    position: absolute;
+    top: 0;
+    
+    background-color: #ff6b00;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 124px 31px;
+    gap: 52px;
+    right: 100%;
+}
+
+.burger_menu a{
+    all: unset;
+    text-transform: capitalize;
+    font-family: "Urbanist";
+    color: white;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.burger_menu a img{
+    width: 25px;
+    height: 25px;
+}
+
+.burger_menu, .burger_btn{
+    transition: 1s;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0 32px 11px 32px;
+}
+
+.slider{
+    flex: auto;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.products{
+    display: flex;
+    justify-content: end;
+}
+
+.slider_element{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.product{
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+}
+
+.product_img{
+    position: absolute;
+    width: 141px;
+    height: 141px;
+    left: calc(50% - 70px);
+    top: -36px;
+}
+
+.product_hot{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    right: 20px;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.product_price{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.slider_left_btn, .slider_right_btn{
+    position: absolute;
+    top: calc(50% - 50px);
+    z-index: 2;
+}
+
+.slider_left_btn{
+    left: 25px;
+}
+
+.slider_right_btn{
+    right: 25px;
+}

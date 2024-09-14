@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food bar</title>
+    <link rel="stylesheet" href="reset5.css">
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <section class="mobile">
+
+        <header>
+            <button class="burger_btn" value="open"> <img src="burger.svg" alt=""></button>
+            <button class="buskcet_btn"> <img src="basket.svg" alt=""></button>
+        </header>
+        <main>
+            <h1>Delicios food. <br>Supperfast delivery.</h1>
+            <div class="search"> 
+                <input type="text" class="search_input" placeholder="Search">
+                <button class="search_btn"> 
+                    <img src="search.svg" alt="">
+                </button>
+            </div>
+            <section class="categories">
+                <figure class="category">
+                    <div class="category_img">
+                        <img src="main.png" alt="">
+
+                    </div>
+                    <figcaption class="active">
+                        main
+                    </figcaption>
+                </figure>
+                <figure class="category">
+                    <div class="category_img">
+                        <img src="soups.png" alt="">
+
+                    </div>
+                    <figcaption>
+                        soup
+                    </figcaption>
+                </figure>
+                <figure class="category">
+                    <div class="category_img">
+                        <img src="salads.png" alt="">
+
+                    </div>
+                    <figcaption>
+                        salad
+                    </figcaption>
+                </figure>
+                <figure class="category">
+                    <div class="category_img">
+                        <img src="drinks.png" alt="">
+
+                    </div>
+                    <figcaption>
+                        drinks
+                    </figcaption>
+                </figure>
+ 
+            </section>
+
+                
+    <h2>Popular now</h2>
+    <section class="products slider">
+
+        <button class="slider_left_btn" onclick="left()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="40" viewBox="0 0 15 40" fill="none">
+                <path d="M13.5 35.4332L1.87776 20L13.5 4.56676L13.5 35.4332Z"fill="white" stroke="#FF6B00" stroke-width="3" />
+            </svg>
+        </button>
+        <button class="slider_right_btn" onclick="right()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="40" viewBox="0 0 15 40" fill="none">
+                <path d="M1.5 4.56677L13.1222 20L1.5 35.4332L1.5 4.56677Z" fill="white"stroke="#FF6B00" stroke-width="3" />
+            </svg>
+        </button>
+    </section>
+
+        </main>
+        <footer>
+            <button class="active_btn">
+                <img src="home.svg" alt="">
+            </button>
+            <button>
+                <img src="favorite.svg" alt="">
+            </button>
+            <button>
+                <img src="nav.svg" alt="">
+            </button>
+            <button>
+                <img src="profile.svg" alt="">
+            </button>
+
+
+        </footer>
+
+        <nav class="burger_menu">
+            <a href="#"> 
+                <img src="offer-and-promo.svg" alt="">
+                offer and promo
+            </a>
+            <a href="#"> 
+                <img src="recent-orders.svg" alt="">
+                recent orders</a>
+            <a href="#"> 
+                <img src="location.svg" alt="">
+                location
+            </a>
+            <a href="#"> 
+                <img src="settings.svg" alt="">
+                settings
+            </a>
+            <a href="#"> 
+                <img src="security.svg" alt="">
+                security
+            </a>
+            <a href="#"> 
+                <img src="privacy-policy.svg" alt="">
+                privacy policy
+            </a>
+    
+        </nav>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
